@@ -1,4 +1,5 @@
 import java.util.Scanner; //to use scanner to get data from the user
+
 /* our objective is to pass data 
 while call the code to runusing cmd
 */
@@ -22,15 +23,6 @@ class Example1{
 			System.out.printf("You enter number = %d \n %s",userint ,args[2]); //print the third argument
 		}else
 			System.out.println("The input is empty!!");//if it called and no parameters passed
-		/*System.out.print("Enter a word: ");
-		String userinput = scan.nextLine();
-		System.out.print("Enter the line differance = ");
-		int userint = scan.nextInt();
-		System.out.println("You entered : " + userinput);
-		for(int i = 0 ; i<userint ; i++){
-			System.out.print("\n");				
-
-			}
-		System.out.printf("You enter number = %d \n %s",userint ,userinput);*/
+		
 	}
 }
